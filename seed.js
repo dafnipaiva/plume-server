@@ -1,3 +1,4 @@
+/*
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const dotenv = require('dotenv');
@@ -24,3 +25,5 @@ mongoose.connect(process.env.ATLAS_URI, { useNewUrlParser: true, useUnifiedTopol
   .catch((err) => {
     console.error('MongoDB connection error:', err);
   });
+*/
+// I already runned this to create on MongoDB Db

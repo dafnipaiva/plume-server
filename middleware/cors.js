@@ -1,8 +1,8 @@
-const cors = require('cors');
+const cors = require('cors'); // Importando o módulo cors
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: process.env.CLIENT_ORIGIN || 'https://plumeapp.netlify.app',
   optionsSuccessStatus: 200,
 };
 
-module.exports = cors(corsOptions);
+module.exports = cors(corsOptions); // Exportando o middleware configurado
